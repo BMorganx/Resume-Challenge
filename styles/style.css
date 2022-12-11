@@ -104,6 +104,10 @@ img {
 
 }
 
+.objective {
+    text-align: left;
+}
+
 .employer {
     float: right;
 }
