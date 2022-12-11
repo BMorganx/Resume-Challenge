@@ -1,0 +1,17 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "HTML Resume for Prime Academy's Technical challenge.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brandi Morgan",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "font-awesome": "^4.7.0",
+    "typed.js": "^2.0.12"
+  }
+}

@@ -1,0 +1,267 @@
+
+
+body {
+    background-color: black;
+    margin: auto;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.btn-group-verticle button {
+    margin-bottom: 10px;
+}
+
+.container-fluid {
+    margin: 0;
+    top: 20px;
+}
+
+.col {
+    background-color: #458A79;
+    margin: 0;
+    color: white;
+    margin-top: 30px;
+}
+.col a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#col2 {
+    background-color: black;
+    color: white;
+    padding-left: 40px;
+}
+
+
+img {
+    border-radius: 1px 40px;
+    border-color: white;
+    border: 5px solid white;
+    height: 197px;
+    width: 197px;
+    margin-top: 30px;
+}
+
+
+.icon {
+    /* display: flex; */
+    text-align: start;
+    margin-bottom: 5px;
+
+}
+
+.info {
+    text-align: start;
+    margin-top: 15px;
+}
+
+.column {
+    display: flex;
+}
+
+.fa-brands {
+    margin-right: 10px;
+}
+
+.fa-solid {
+    float: left;
+    margin-right: 10px;
+    margin-left: 5%;
+}
+
+.gpa {
+    float: right;
+}
+
+.heading {
+    color: #458A79;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.line{
+    flex-grow:1;
+    height: 1px;
+    background-color: white;
+    justify-content: center;
+    margin-left: 8px;
+    
+  }
+
+.name {
+    font-weight: 400;
+}
+
+.nav {
+    font-weight: 700;
+}
+.nav a {
+    color:#458A79;
+
+}
+
+.employer {
+    float: right;
+}
+
+.position {
+    color: #D4AC6A;
+}
+
+.right-column {
+    padding: 40px;
+}
+
+.sm-header {
+    margin-bottom: 30px;
+    animation: ease-in;
+}
+
+.tech {
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.tech h2 {
+    flex-grow:0;
+}
+
+.title {
+    color: #D4AC6A;
+    float: right;
+}
+
+.typing {
+    font-size: 17px;
+}
+
+.download {
+    margin-top: 40px;
+}
+
+.hidden-msg {
+    display: none;
+}
+
+@media only screen and (max-width: 320px) {
+    .hidden-msg {
+        display: block;
+        padding: 15px;
+    }
+
+    .btn-group-verticle button {
+        display: none;
+    }
+    
+    .container-fluid {
+        display: none;
+    }
+    
+    .col {
+        display: none;
+    }
+    .col a {
+        display: none;
+    }
+    
+    #col2 {
+        display: none;
+    }
+    
+    
+    img {
+       display: none;
+    }
+    
+    
+    .icon {
+       display: none;
+    
+    }
+    
+    .info {
+        display: none;
+    }
+    
+    .column {
+        display: none;
+    }
+    
+    .fa-brands {
+        display: none;
+    }
+    
+    .fa-solid {
+        display: none;
+    }
+    
+    .gpa {
+        display: none;
+    }
+    
+    .heading {
+        display: none;
+    }
+    
+    .line{
+       display: none;
+        
+      }
+    
+    .name {
+        display: none;
+    }
+    
+    .nav {
+        display: none;
+    }
+    .nav a {
+
+        display: none;
+    
+    }
+    
+    .employer {
+        display: none;
+    }
+    
+    .objective {
+        display: none;
+    }
+    
+    .position {
+        display: none;
+
+    }
+
+    .sm-header {
+        display: none;
+    }
+    
+    .tech {
+        display:none;
+    }
+    
+    .tech h2 {
+        display: none;
+    }
+    
+    .title {
+        display: none;
+    }
+    
+    .typing {
+        display: none;
+    }
+    
+    .download {
+        display: none;
+    }
+}
